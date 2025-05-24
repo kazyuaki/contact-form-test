@@ -1,0 +1,139 @@
+.header {
+    position: relative;
+    background-color: #fff;
+    padding: 20px 0;
+    height: 100px;
+    border-bottom: 1px solid #E0DFDE;
+    
+}
+
+.header__inner {
+    max-width: 1512px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header__logo {
+    font-family: 'Faustina', serif;
+    letter-spacing: 1.5px;
+    font-size: 40px;
+    font-weight: 400;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%);
+    color: #8B7969;
+    text-decoration: none;
+}
+
+.header__logout ,
+.header__login ,
+.header__register  {
+    position: absolute;
+    top: 50%;
+    right: 40px;
+    font-size: 14px;
+    color: #ccc;
+    text-decoration: none;
+    border: 1px solid #eee;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.contact-form__content ,
+.register-form__content ,
+.login-form__content {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+
+.contact-form__heading ,
+.confirm__heading,
+.register-form__heading  ,
+.login-form__heading ,
+.admin__heading {
+    margin: 30px auto;
+    text-align: center;
+    font-family: 'Faustina', serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #8B7969;
+}
+
+
+
+.form__input--text input,
+.form__input--textarea textarea,
+.form__input--select select {
+    width: 100%;
+    padding: 12px;
+    /* border: 1px solid #ddd; */
+    border: none;
+    border-radius: 4px;
+    background-color: #f4f4f4;
+    font-size: 16px;
+    color: #5e4e41;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: gray;
+}
+
+select option[value="default"] {
+    color: gray;
+}
+
+.form__button {
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 3px;
+}
+
+.form__button-submit {
+    background-color: #82756a;
+    color: #fff;
+    font-size: 20px;
+    padding: 12px 32px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form__button-submit:hover {
+    background-color: #7a6858; }
+
+
+.form__input--text.name {
+    display: flex;
+    gap: 16px;
+}
+
+.form__input--text.name input {
+    width: 100%; }
+
+.form__input--text.tel {
+    display: flex;
+    gap: 12px;
+}
+.form__input--text.tel input {
+    width: 100%;
+    text-align: center;
+}
+
+.form__error {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 5px;
+    display: block;
+    text-align: center;
+}
+
+.form__error div {
+    margin-bottom: 5px;
+    line-height: 1.4;
+    text-align: center;
+}

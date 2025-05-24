@@ -1,0 +1,67 @@
+.confirm__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+
+.confirm__content--heading {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.form {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.confirm-table {
+    border: 1px solid #ddd;
+
+}
+
+.confirm-table__inner {
+    width: 100%;
+}
+
+
+.confirm-table__header {
+    padding: 15px;
+    background-color: #c7b8ac;
+        /* 落ち着いたブラウン系 */
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+    vertical-align: top;
+    width: 30%;
+    font-weight: bold;
+    border-bottom: 1px solid white;
+}
+
+.confirm-table__text {
+    padding: 15px;
+    border-bottom: 1px solid #e0dfde;
+}
+
+.confirm-table__text input {
+    width: 100%;
+    outline: none;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    color: #5e4e41;
+    font-family: 'Noto Sans JP', sans-serif;
+    pointer-events: none;
+}
+
+.confirm-table__text {
+    word-break: break-word; }
+
+.form__button-modify {
+    font-size: 20px;
+    margin-left: 30px;
+    color:#bbb0a7 ;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}

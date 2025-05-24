@@ -1,0 +1,42 @@
+body {
+    background-color: #f1ece7;
+    max-width: 1512px;
+    margin: 0 auto;
+    /* font-family: "ヒラギノ明朝 ProN", serif; */
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    border: 1px solid #e4dcd6;
+    border-radius: 5px;
+    background-color: white;
+    color:#8d867d;
+    width: 736px;
+    height: 644px;
+    margin: 0 auto;
+
+}
+
+.form__content {
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+    align-content: center;
+    font-size: 24px;
+}
+
+.form__group-title {
+    text-align: left;
+    margin-top: 10px;
+    height: 50px;
+}
+
+.form__group-content {
+    height: 70px;
+    margin-bottom:30px
+}
+
+.form__group-content input {
+    padding: 20px;
+}

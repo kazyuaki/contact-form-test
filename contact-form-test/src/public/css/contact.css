@@ -1,0 +1,61 @@
+.form__group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    color: #ada291;
+}
+
+.form__group-title {
+    text-align: left;
+    width: 40%;
+}
+
+.form__group-content {
+    margin-bottom: 24px;
+    width: 80%;
+}
+.form__input--text input:not(:last-child) {
+    margin-right: 10px;
+}
+
+.form__input--radio input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #887a65;
+    border-radius: 50%;
+    margin-right: 6px;
+    cursor: pointer;
+    background-color: transparent;
+    transition: background-color 0.2s ease;
+    position: relative;
+}
+
+.form__input--radio input[type="radio"]:checked {
+    background-color: #887a65;
+}
+.form__input--radio label {
+    margin-right: 20px;
+    font-size: 16px;
+    color: #5e4e41;
+    cursor: pointer;
+}
+.form__input--textarea textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+
+.form__button-submit:checked {
+    background-color: #887a65;
+}
+
+#contact-select {
+    color: #b9b9b9;
+}
+
+#contact-select option:not([value=""]) {
+    color: black;
+}
